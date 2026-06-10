@@ -103,7 +103,8 @@ a {
   font-style: normal;
 }
 
-.contact-list a {
+.contact-list a,
+.contact-row {
   display: grid;
   grid-template-columns: 2.25rem minmax(0, 1fr);
   align-items: center;
